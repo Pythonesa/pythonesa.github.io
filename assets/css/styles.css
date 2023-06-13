@@ -115,8 +115,8 @@ nav {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 6rem;
-  right: 3rem;
+  top: 4.5rem;
+  right: 0.5rem;
   list-style-type: none;
   display: flex;
   gap: 0.5rem;
@@ -171,5 +171,19 @@ nav {
 @media (min-width: 800px) {
   .mobile-show {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .main_title > svg {
+    height: 1.5rem;
+    transform: translateY(0.3rem);
+  }
+  .main_title > span {
+    font-size: 1.25rem;
+  }
+  .menu-hamburguesa > svg {
+    height: 2.25rem;
+    width: 2.25rem;
   }
 }
