@@ -72,9 +72,9 @@ nav {
 
 .about{
   display:flex;
-  width: auto;
-  margin: 0.6rem;
-  margin-top: 1rem;
+  width: 800px;
+  max-width: 100%;
+  margin: 1rem auto;
   height: fit-content;
   text-align: justify;
   
@@ -83,10 +83,30 @@ nav {
 }
 
 .playlists {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--nav-bg-primary);
+  margin-bottom: 0.5rem;
+}
+
+.playdiv{
+  margin-left: 1rem;
+}
+
+.playlists h1{
+  margin-left: 2rem;
+  margin-bottom: 0px;
+}
+
+.proyectos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
-  background-color: #ffffff;
+  background-color: var(--nav-bg-primary);
+}
+
+.proyectos h1 {
+  margin-left: 2rem;
 }
 
 .aboutShadow {
