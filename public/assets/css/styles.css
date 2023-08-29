@@ -82,6 +82,13 @@ nav {
   
 }
 
+.playlists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  background-color: #ffffff;
+}
+
 .aboutShadow {
   align-items: center;
   display: flex;

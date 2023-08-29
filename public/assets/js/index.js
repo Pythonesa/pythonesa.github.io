@@ -1,3 +1,5 @@
+import { typewriter } from "./typewriter.js"
+
 let show = false
 const mobileButton = document.querySelector("#hamburguesa")
 const mobileMenu = document.querySelector("#mobile")
@@ -18,4 +20,4 @@ mobileMenuLinks.forEach(link => {
     })
 })
 
-
+typewriter(".textAbout span")
