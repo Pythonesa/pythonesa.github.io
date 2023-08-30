@@ -8,7 +8,7 @@ export const typewriter = (selector, options) => {
 
   let waitTime = 0;
   for (let index = 1; index <= originalText.length; index++) {
-    const offset = Math.floor(Math.random() * (originalText[index] === ' ' ? 100 : 50));
+    const offset = Math.floor(Math.random() * (originalText[index] === ' ' ? 100 : 80));
     const time = waitTime + offset;
     waitTime += offset;
     setTimeout(() => {
