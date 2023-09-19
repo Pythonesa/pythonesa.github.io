@@ -93,15 +93,27 @@ p{
   margin-bottom: 0.5rem;
 }
 
+.playlist-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .playdiv{
   margin: 1rem;
   flex-direction: column;
   width: fit-content;
-  padding: 1rem;
+  padding: 0.1rem;
 }
 
 .playdiv h2{
   margin-top: 0px;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.playdiv iframe{
+  margin: 0.2rem;
 }
 
 .playlists h1{
@@ -125,6 +137,7 @@ p{
   display: flex;
   background-color: var(--nav-bg-primary);
   box-shadow: 0 0 0.2rem 0.2rem var(--secondary-shadow);
+  padding: 0.5rem;
 }
 
 .logoAbout {
@@ -238,6 +251,10 @@ p{
   }
   .menu-hamburguesa {
     display: flex;
+  }
+  .playdiv {
+    position: relative;
+    margin: 1rem auto;
   }
 }
 
